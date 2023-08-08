@@ -13,8 +13,8 @@ pipeline {
     stages {
         stage('code') {
             steps {
-                git url: 'git@github.com:vinodreddy74701/game-of-life.git',
-                    branch: 'develop'
+                git url: 'https://github.com/vinodreddy74701/game-of-life.git',
+                    branch: 'devops'
             }
         }
         stage('package') {
